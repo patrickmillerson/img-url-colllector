@@ -77,7 +77,7 @@ function addImage() {
 
         // Saving obj in localstorage after adding new items
         setUrlObjs(img_obj_storage_arr)
-        img_url: document.getElementById('img-url').value = ''
+        document.getElementById('img-url').value = ''
 
         // Calling function to update UI without reffreshing page
         getUrlObj()
